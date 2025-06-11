@@ -52,19 +52,6 @@ curl -o server.jar https://launcher.mojang.com/v1/objects/934d9fcfc3d305a122ecfa
 
 ---
 
-## ☁️ Subir a GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Minecraft server EC2 project"
-git remote add origin https://github.com/Brollix/minecraft-server
-git branch -M main
-git push -u origin main --force
-```
-
----
-
 ## 🔧 Despliegue en AWS EC2
 
 ### 1. Conectarse a la instancia
